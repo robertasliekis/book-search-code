@@ -23,6 +23,17 @@ h6 {
   font-weight: 300;
 }
 
+div {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+}
+
 :root {
   --global-color1: rgb(92, 77, 49);
 }
@@ -458,6 +469,15 @@ body {
     top: 4rem;
     width: 100%;
     height: calc(100% - 4rem);
+    padding: 1rem;
+    h1 {
+      font-size: 1.7rem;
+    }
+    .category-list {
+      .list-item {
+        font-size: 1.1rem;
+      }
+    }
   }
 
   .books-wrapper {
@@ -538,11 +558,11 @@ body {
   .side-menu {
     padding: 1rem;
     .category-name {
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
     .category-list {
       .list-item {
-        font-size: 1rem;
+        font-size: 0.9rem;
       }
     }
   }

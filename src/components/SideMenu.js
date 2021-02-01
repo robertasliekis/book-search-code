@@ -31,8 +31,6 @@ class SideMenu extends Component {
       "ARCHITECTURE",
       "EDUCATION",
       "HISTORY",
-      "LAW",
-      "HUMOR",
       "COOKING",
       "DESIGN",
       "COMPUTERS",
